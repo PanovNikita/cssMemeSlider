@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS слайдер мемов</title>
+</head>
+<body>
+  <main class="container">
+    <div class="slider-container">
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+      <input type="radio" name="slider" id="slide4">
+      <!-- Картинки -->
+      <div class="slider images-slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="img/1.gif" alt="Шварцнегер в ужасе кричит">
+          </div>
+          <div class="slide">
+            <img src="img/2.png" alt="Девушка правит код своего парня">
+          </div>
+          <div class="slide">
+            <img src="img/3.jpg" alt="Переписка в соцсети">
+          </div>
+          <div class="slide">
+            <img src="img/4.jpg" alt="Комикс про голубя">
+          </div>
+        </div>
+      </div>
+      <!-- Текст -->
+      <div class="slider text-slider">
+        <div class="slides">
+          <div class="slide">
+            <p>Когда понял, что слайдер нужно делать без JS</p>
+          </div>
+          <div class="slide">
+            <p>Проходить курс тяжело… Но с поддержкой любимых веселее</p>
+          </div>
+          <div class="slide">
+            <p>Только лучшие студенты найдут ошибку!</p>
+          </div>
+          <div class="slide">
+            <p>Когда кураторы сказали, что код не важен, лишь бы работало</p>
+          </div>
+        </div>
+      </div>
+      <!-- Кнопки -->
+      <div class="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
